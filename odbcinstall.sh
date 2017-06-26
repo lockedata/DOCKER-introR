@@ -3,4 +3,4 @@ echo "deb [arch=amd64] https://packages.microsoft.com/ubuntu/16.04/prod xenial m
 sudo apt-get update
 sudo ACCEPT_EULA=Y apt-get install msodbcsql
 # optional: for unixODBC development headers
-sudo apt-get install unixodbc-dev
+sudo apt-get install -y unixodbc-dev
