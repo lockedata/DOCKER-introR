@@ -11,4 +11,6 @@ Remotes: lockedata/pRojects
 Imports: tidyverse,
     pRojects,
     intubate,
-    FFTrees
+    FFTrees,
+    DBI,
+    odbc
