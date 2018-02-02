@@ -7,7 +7,7 @@ docker run -p 80:8787 -d lockedata/docker-intror
 ```
 
 ## About
-- The DESCRIPTION file holds the package manaifest of packages needed. 
+- The DESCRIPTION file holds the package manifest of packages that will be available to attendees 
 - The users.csv holds user names and passwords that can be used to access the Rstudio instance by attendees
 - The sampleSQL.R file gets added to everyone's home directory so that they can start working with a DB easily
 - mkusers.sh and odbcinstall.sh are setup bash scripts
