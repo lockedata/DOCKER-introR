@@ -10,7 +10,11 @@ LazyData: true
 Remotes: lockedata/pRojects
 Imports: tidyverse,
     pRojects,
-    intubate,
+    recipes,
     FFTrees,
     DBI,
-    odbc
+    odbc,
+	DataExplorer,
+	naniar,
+	visdat
+	
