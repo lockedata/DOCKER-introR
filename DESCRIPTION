@@ -16,4 +16,5 @@ Imports: tidyverse,
     odbc,
 	DataExplorer,
 	naniar,
-	visdat
+	visdat,
+	tidymodels
