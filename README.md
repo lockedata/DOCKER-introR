@@ -3,8 +3,10 @@ A Dockerfile for MOD01-07 training i.e. introductory R training.
 
 ```
 docker pull lockedata/docker-intror
-docker run -p 80:8787 -d lockedata/docker-intror
+docker run -p 80:8787 -d -e PASSWORD=yourpasswordhere lockedata/docker-intror
 ```
+
+ **NB: Setting a password is now REQUIRED.**  Container will error otherwise.
 
 ## About
 - The DESCRIPTION file holds the package manifest of packages that will be available to attendees 
