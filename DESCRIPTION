@@ -14,7 +14,8 @@ Imports: tidyverse,
     FFTrees,
     DBI,
     odbc,
-	DataExplorer,
-	naniar,
-	visdat,
-	tidymodels
+    DataExplorer,
+    naniar,
+    visdat,
+    tidymodels,
+    httr
