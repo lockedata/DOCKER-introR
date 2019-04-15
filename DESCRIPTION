@@ -7,9 +7,9 @@ Depends: R (>= 3.4.0)
 License: MIT
 Encoding: UTF-8
 LazyData: true
-Remotes: lockedata/pRojects
+Remotes: lockedata/starters
 Imports: tidyverse,
-    pRojects,
+    starters,
     recipes,
     FFTrees,
     DBI,
