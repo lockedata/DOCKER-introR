@@ -3,7 +3,7 @@ MAINTAINER Steph Locke <steph@itsalocke.com>
 RUN git clone https://github.com/lockedata/DOCKER-introR.git  && \
     cd DOCKER-introR/  && \
 	cp sampleSQL.r /etc/skel/  && \
-    apt-get install -y libjpeg-dev apt-transport-https gnupg && \
+    apt-get install -y libjpeg-dev apt-transport-https gnupg r-cran-rcppeigen && \
     chmod 777 ./mkusers.sh  && \
     ./mkusers.sh  && \
     chmod 777 ./odbcinstall.sh  && \
