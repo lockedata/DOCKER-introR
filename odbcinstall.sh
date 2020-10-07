@@ -2,7 +2,8 @@ sudo su
 wget https://packages.microsoft.com/keys/microsoft.asc 
 apt-key add microsoft.asc 
 #Debian 9
-curl https://packages.microsoft.com/config/debian/9/prod.list > /etc/apt/sources.list.d/mssql-release.list
+wget https://packages.microsoft.com/config/debian/9/prod.list 
+prod.list > /etc/apt/sources.list.d/mssql-release.list
 
 exit
 sudo apt-get update
