@@ -8,4 +8,4 @@ RUN git clone https://github.com/lockedata/DOCKER-introR.git  && \
     ./mkusers.sh  && \
     chmod 777 ./odbcinstall.sh  && \
     ./odbcinstall.sh && \
-    R -e 'devtools::install_github("lockedata/DOCKER-introR")' 
+    R -e 'devtools::install_deps()' 
